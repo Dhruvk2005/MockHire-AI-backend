@@ -91,3 +91,9 @@ const userLogin = async (req, res) => {
         })
     }
 }
+
+module.exports = {
+    UserSignupcontroller,
+    userLogin
+
+}
